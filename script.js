@@ -31,3 +31,9 @@ function draw(event) {
   context.beginPath();
   context.moveTo(event.clientX - canvas.offsetLeft, event.clientY - canvas.offsetTop);
 }
+const resetButton = document.getElementById('resetButton');
+
+resetButton.addEventListener('click', () => {
+  context.clearRect(0, 0, canvas.width, canvas.height);
+});
+
