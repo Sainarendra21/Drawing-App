@@ -1,4 +1,11 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  border: 2px solid black;
+  cursor: crosshair;
 }
