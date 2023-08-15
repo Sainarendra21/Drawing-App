@@ -28,7 +28,3 @@ This app should work on most modern web browsers. However, for the best experien
 
 This simple drawing app was created as a learning exercise and is based on HTML, CSS, and JavaScript. It utilizes the HTML5 Canvas API for rendering the drawing.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
