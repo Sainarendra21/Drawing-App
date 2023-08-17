@@ -20,8 +20,6 @@ Welcome to the Simple Drawing App! This is a basic web-based drawing application
 
 You can easily customize the app by tweaking the `styles.css` file to change the appearance of the canvas and buttons. Additionally, you can modify the behavior of the drawing app by editing the `script.js` file. Feel free to experiment and make the app your own!
 
-## Compatibility
-
 This app should work on most modern web browsers. However, for the best experience, we recommend using the latest version of Chrome, Firefox, Safari, or Edge.
 
 ## Acknowledgments
