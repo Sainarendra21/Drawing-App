@@ -37,3 +37,14 @@ resetButton.addEventListener('click', () => {
   context.clearRect(0, 0, canvas.width, canvas.height);
 });
 
+const saveButton = document.getElementById('saveButton');
+
+saveButton.addEventListener('click', () => {
+  const image = canvas.toDataURL('image/png');
+  const link = document.createElement('a');
+  link.href = image;
+  link.download = 'drawing.png';
+  link.click();
+});
+
+
