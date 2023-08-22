@@ -26,16 +26,19 @@ function stopDrawing() {
 
 function draw(event) {
   if (!isDrawing) return;
+  context.strokeStyle = document.getElementById('colorPicker').value;
   context.lineTo(event.clientX - canvas.offsetLeft, event.clientY - canvas.offsetTop);
   context.stroke();
   context.beginPath();
   context.moveTo(event.clientX - canvas.offsetLeft, event.clientY - canvas.offsetTop);
 }
+
 const resetButton = document.getElementById('resetButton');
 
 resetButton.addEventListener('click', () => {
   context.clearRect(0, 0, canvas.width, canvas.height);
 });
+
 
 const saveButton = document.getElementById('saveButton');
 
@@ -46,5 +49,3 @@ saveButton.addEventListener('click', () => {
   link.download = 'drawing.png';
   link.click();
 });
-
-
