@@ -58,7 +58,6 @@ button:hover {
   background-color: #555;
 }
 
-/* Animation for canvas appearance */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -70,4 +69,3 @@ button:hover {
     transform: scale(1);
   }
 }
-
