@@ -69,3 +69,7 @@ button:hover {
     transform: scale(1);
   }
 }
+
+.heading {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
